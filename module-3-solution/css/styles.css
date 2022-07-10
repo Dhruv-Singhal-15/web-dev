@@ -1,0 +1,59 @@
+body {
+  font-size: 16px;
+  color: #000000;
+  background-color: #fffff0;
+}
+
+#header-nav {
+  background-color: #f0e68c;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand > h1 { /* food,llc */
+  font-family: 'Edu SA Beginner', cursive;
+  color: #5f9ea0;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: #222 1px 1px 1px ;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 0.9;
+ }
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#our-menu {
+  margin-bottom: 35px;
+  font-size: 1.6em;
+}
+#para {
+	margin-bottom: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	background-color: #fafad2;
+	font-style: italic;
+
+}
+#nav-list {
+  margin-top: 7px;
+}
+#nav-list a {
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #f5f5dc;
+}
+div > p {
+	text-align: center;
+	font-size: 1.2em;
+}
+@media (max-width: 767px) {
+	#para{
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+}
+#main-content{
+	width: 100%;
+}
